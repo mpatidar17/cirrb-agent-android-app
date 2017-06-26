@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1a185</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#f1a185</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#9e9c9c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorButton">#de805f</color>
+    <color name="colorCancelButton">#89a4a2</color>
+    <color name="colorLightWhite">#f4f0f0</color>
+    <color name="colorLightGray">#fbdedfdf</color>
+    <color name="colorBackground">#f2f2f2</color>
+
+</resources>

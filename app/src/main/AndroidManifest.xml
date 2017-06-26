@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cirrbagent.com.cirrbagentapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_small"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".service.SensorService"
+            android:enabled="true"></service>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SetForgotActivity"
+            android:theme="@style/AppTheme.Status.Transparent"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+        <activity
+            android:name=".OrderProcressActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <activity
+            android:name=".OrderResponseActivity"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <activity
+            android:name=".AcceptOrderActiivty"
+            android:theme="@style/AppTheme.Status.Transparent" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDUm4Oy-jV45g4OEDQGj4Mwpumyeb0qshA" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CirrbAgentApp</string>
+    <string name="Email_Username">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="cnfrmPassword">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgotpass">Forgot your password ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_text">Type in Your Mail Address to retrieve your account password</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="txt_set_pass">An email with reset code was sent to your inbox.Please provide the reswt code to be able to reset your password </string>
+    <string name="reset_code">Reset Code</string>
+    <string name="new_pass">New Password</string>
+    <string name="txt_congo_msg">You have been successfully registered.Please follow the instruction in the email sent to you to complete your registration</string>
+    <string name="txt_thanku">Thank you !</string>
+
+    <string name="txt_entr_username">Please enter email</string>
+    <string name="txt_enter_valid_email">Email address is not valid</string>
+    <string name="txt_entr_password">Please enter your password </string>
+    <string name="txt_confirm_pass">Password does not match</string>
+    <string name="txt_register_success">Successfully Registered</string>
+    <string name="txt_Exception_Message">Internet Problem Occurs, Try again some time</string>
+
+    <string name="txt_nav_home">Home</string>
+    <string name="txt_nav_order">Order History</string>
+    <string name="txt_nav_profile">Profile</string>
+    <string name="txt_nav_logout">Logout</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="txt_order_accept">Accept Order</string>
+    <string name="txt__accept">Accept</string>
+    <string name="txt_order_denied">Deny</string>
+    <string name="txt_order_stop">Stop Order</string>
+    <string name="txtinhand">IN HAND </string>
+    <string name="txtlimit">LIMIT </string>
+    <string name="txttotlaordr">Total Order </string>
+    <string name="txtlstrcvd">Last Received</string>
+    <string name="txtProfile">Profile</string>
+    <string name="txthintPhnNo">Phone Number</string>
+    <string name="save">Save</string>
+
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+
+    <string name="txt_logout_msg">Are you sure you want to logout?</string>
+    <string name="txt_email_empty">Enter your email</string>
+    <string name="txt_code_empty">Enter your code</string>
+    <string name="txt_code_wrong">Enter correct code</string>
+    <string name="txt_no_order">No Order</string>
+
+
+    <string name="txt_cnfrm_order_msg">Once order is confirmed we will dispatch your order to closest driver</string>
+    <string name="txt_coupon">Have pramotion code or coupon ?</string>
+    <string name="txt_total_order">Order Total</string>
+    <string name="txt_delvry_chrges">Delivery Chrages</string>
+    <string name="txt_grand_total">Grand total</string>
+    <string name="txt_confirm">Confirm</string>
+
+    <string name="txt_getting_order">Getting Orders</string>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/background_list"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_hash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_hash_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_hash"
+        android:text="10"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_sr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/sr_price"
+        android:text="SR"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/sr_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="200"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp" />
+
+</RelativeLayout>
